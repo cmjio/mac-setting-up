@@ -1,0 +1,34 @@
+# I just put these so that we can re-use this .gitignore file in future projects.
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+
+# Just so that we don't commit anything that constantly changes.
+# And so that we can each have our own testing environment.
+*.log
+*.sql
+*.sqlite
+
+
+# Icon files.
+*.(I|i)con?
+(I|i)con?
+*.icns
+
+
+# For Mac OS X files.
+.fseventsd
+.DS_Store
+.DS_Store?
+.Trashes
+._*
+.Spotlight-V100
+
+
+# For Windows files.
+ehthumbs.db
+Thumbs.db

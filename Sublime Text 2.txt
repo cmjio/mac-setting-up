@@ -1,0 +1,29 @@
+
+Installing Sublime Text 2
+-------------------------
+
+Go to [http://www.sublimetext.com/] and download the Sublime Text 2 installer.
+Install it.
+Input the license:
+- license goes here -
+
+
+Installing subl
+---------------
+
+$ sudo ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+
+
+Installing packages
+-------------------
+
+Install the Package Control: [http://wbond.net/sublime_packages/package_control]
+Install the following packages:
+- AdvancedNewFile
+- DocBlockr
+- Gist
+- Nettuts+ Fetch
+- Prefixr
+- SidebarEnhancements
+- SublimeLinter
+- ZenCoding
