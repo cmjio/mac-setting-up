@@ -1,6 +1,6 @@
 # Terminal setup
 
-Set up the Terminal application (command line) to use theme of my preference... My own: [FileSwap.com > Eduan > Eduan.terminal](http://www.fileswap.com/dl/TKMADxskj3/Eduan.terminal.html)
+Set up the Terminal application (command line) to use theme of my preference... My own: [FileSwap.com > Eduan > Eduan.terminal](http://www.fileswap.com/dl/t0wJEala52/Eduan.terminal.html)
 
 ## Setting up some settings
 
@@ -31,9 +31,9 @@ Do the following in the command line:
 `$ nano ~/.gitmessage.txt`
 
     Short (50 chars or less) summary of changes.
-    
+
     More detailed explanatory text. Wrap it to about 72 chars.
-    
+
     * For something you fixed, like a bug a glitch or something.
     + For something new you added, be it a class, function, or whole feature.
     ~ If you changed something, be it text, a function, etc.
@@ -49,8 +49,8 @@ Do the following in the command line:
 
 ## Adding auto completion
 
-`$ curl -OL https://github.com/git/git/raw/master/contrib/completion/git-completion.bash`
-`$ mv ~/git-completion.bash ~/.git-completion.bash`
+`$ curl -OL https://github.com/git/git/raw/master/contrib/completion/git-completion.bash`<br />
+`$ mv ~/git-completion.bash ~/.git-completion.bash`<br />
 `$ nano .bashrc`
 
     if [ -f ~/.git-completion.bash ]; then

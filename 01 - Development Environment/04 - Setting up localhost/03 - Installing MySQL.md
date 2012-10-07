@@ -5,7 +5,7 @@
 
 ## Installing MySQL
 
-1. Mount the download .dmg file.
+1. Mount the downloaded .dmg file.
 2. Install the .pkg file, and then drag the .prefPane file to the System Preferences application to install it, install it for all users.
 
 ## Setting up the root user

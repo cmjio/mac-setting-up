@@ -9,7 +9,7 @@ You can enable things like PHP and virtualhosts by making use of the configurati
 `/etc/apache2/httpd.conf`
 
 Restart the apache server (like after editing the config file) with:<br />
-`$ sudo apachectl graceful`
+`$ sudo apachectl restart`
 
 Stop the Apache server:<br />
-`$ sudo apachectl graceful-stop`
+`$ sudo apachectl stop`
