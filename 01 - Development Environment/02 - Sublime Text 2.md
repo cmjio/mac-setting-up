@@ -4,8 +4,7 @@
 
 1. Go to [SublimeText.com](http://www.sublimetext.com/) and download the Sublime Text 2 installer.
 2. Install it.
-3. Input the license:<br />
-`- license goes here -`
+3. Input the license.
 
 ## Installing subl
 
@@ -13,7 +12,7 @@ This step is optional but very recommended, it installs the subl command to UNIX
 
 `$ sudo ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl`
 
-# Installing add-ons etc.
+# Setting up custom environment (plugins etc.).
 
 ## Installing packages
 
@@ -23,11 +22,14 @@ This step is optional but very recommended, it installs the subl command to UNIX
 - AdvancedNewFile
 - DocBlockr
 - Gist
+- Markdown Editing
 - Markdown Preview
 - Nettuts+ Fetch
 - Prefixr
 - SidebarEnhancements
 - SublimeLinter
+- WordCount
+- Word Highlight
 - ZenCoding
 
 ## Installing the theme and the color scheme
@@ -43,3 +45,7 @@ Install it with the Package Control package. Shift+Command+p type "install", pre
 
 1. Download the Tomorrow color scheme, the TextMate version: [GitHub > ChrisKempson > Tomorrow-Theme](https://github.com/ChrisKempson/Tomorrow-Theme)
 2. To install the Tomorrow color scheme, go to *Sublime Text 2 > Preferences > Browse Packages*, copy the theme to the User directory, now select it on your color schemes.
+
+## Syncing with DropBox
+
+If you want to sync your Sublime Text 2 settings accross all your devices using DropBox, you can follow the instructions in this online article: [Stofke on wheels > Use Dropbox to store your Sublime Text 2 settings, themes and plugins](http://wheels.onebuttonapps.net/2012/04/use-dropbox-to-store-your-sublime-text-2-settings/)
