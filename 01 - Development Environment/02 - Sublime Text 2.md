@@ -26,11 +26,14 @@ This step is optional but very recommended, it installs the subl command to UNIX
 - Markdown Preview
 - Nettuts+ Fetch
 - Prefixr
-- SidebarEnhancements
-- SublimeLinter
+- Sidebar Enhancements
+- Sublime Code Intel
+- Sublime Linter
 - WordCount
 - Word Highlight
 - ZenCoding
+
+Note: When editing text files with the Markdown Editing package installed, remember to change the syntax back to Plain Text.
 
 ## Installing the theme and the color scheme
 
