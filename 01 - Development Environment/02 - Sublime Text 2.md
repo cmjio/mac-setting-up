@@ -44,6 +44,8 @@ OR<br />
 Install it with the Package Control package. Shift+Command+p type "install", press enter. Now type soda theme and select the right option, it is now installed.
 2. Follow these instructions to use it: [GitHub > buymeasoda > soda-theme > Activating the theme](https://github.com/buymeasoda/soda-theme#activating-the-theme)
 
+Alternatively, if you would like to use another theme (like the Phoenix one, which I'm using myself), you can repeat the above steps, but with the [Phoenix theme](http://netatoo.github.com/phoenix-theme/).
+
 ### Installing the color scheme
 
 1. Download the Tomorrow color scheme, the TextMate version: [GitHub > ChrisKempson > Tomorrow-Theme](https://github.com/ChrisKempson/Tomorrow-Theme)
