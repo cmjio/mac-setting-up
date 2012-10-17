@@ -51,6 +51,9 @@ Alternatively, if you would like to use another theme (like the Phoenix one, whi
 1. Download the Tomorrow color scheme, the TextMate version: [GitHub > ChrisKempson > Tomorrow-Theme](https://github.com/ChrisKempson/Tomorrow-Theme)
 2. To install the Tomorrow color scheme, go to *Sublime Text 2 > Preferences > Browse Packages*, copy the theme to the User directory, now select it on your color schemes.
 
+If you use the Solarized (Dark, Light) theme, then I really recommend you check out this GitHub repository: [GitHub > mybuddymichael > solarized-sublimetext2](https://github.com/mybuddymichael/solarized-sublimetext2)<br />
+It is meant to be more true to the original theme, because Sublime Text 2's is quite wonky.
+
 ## Syncing with DropBox
 
 If you want to sync your Sublime Text 2 settings accross all your devices using DropBox, you can follow the instructions in this online article: [Stofke on wheels > Use Dropbox to store your Sublime Text 2 settings, themes and plugins](http://wheels.onebuttonapps.net/2012/04/use-dropbox-to-store-your-sublime-text-2-settings/)
