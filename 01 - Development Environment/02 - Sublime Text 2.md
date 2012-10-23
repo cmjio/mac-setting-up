@@ -20,6 +20,7 @@ This step is optional but very recommended, it installs the subl command to UNIX
 2. Install the following packages:
 
 - AdvancedNewFile
+- Alignment
 - DocBlockr
 - Gist
 - Markdown Editing

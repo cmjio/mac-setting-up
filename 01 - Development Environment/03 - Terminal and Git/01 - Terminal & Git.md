@@ -6,13 +6,13 @@ Set up the Terminal application (command line) to use theme of my preference... 
 
 `$ touch ~/.bash_profile`<br />
 `$ touch ~/.bashrc`<br />
-`$ nano ~/.bash_profile`
+`$ subl ~/.bash_profile`
 
     if [ -f ~/.bashrc ]; then
         source ~/.bashrc
     fi
 
-`$ nano ~/.bashrc`
+`$ subl ~/.bashrc`
 
     export PS1='[\t] \w >>> '
 
@@ -28,16 +28,17 @@ Set up the Terminal application (command line) to use theme of my preference... 
 Do the following in the command line:
 
 `$ touch ~/.gitmessage.txt`<br />
-`$ nano ~/.gitmessage.txt`
+`$ subl ~/.gitmessage.txt`
 
     Short (50 chars or less) summary of changes.
 
     More detailed explanatory text. Wrap it to about 72 chars.
 
-    * For something you fixed, like a bug a glitch or something.
-    + For something new you added, be it a class, function, or whole feature.
+    * For something you fixed, like a bug a glitch or something
+    + For something new you added, be it a class, function, or whole feature
     ~ If you changed something, be it text, a function, etc.
-    - If you removed something.
+    - If you removed something
+    +~ If you improved something in some or any way
 
 `$ git config --global user.name "Eduan Lavaque"`<br />
 `$ git config --global user.email "eduan@snapsimpletech.com"`<br />
@@ -51,7 +52,7 @@ Do the following in the command line:
 
 `$ curl -OL https://github.com/git/git/raw/master/contrib/completion/git-completion.bash`<br />
 `$ mv ~/git-completion.bash ~/.git-completion.bash`<br />
-`$ nano .bashrc`
+`$ subl ~/.bashrc`
 
     if [ -f ~/.git-completion.bash ]; then
         source ~/.git-completion.bash
