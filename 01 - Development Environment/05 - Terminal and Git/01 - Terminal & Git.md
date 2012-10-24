@@ -1,6 +1,8 @@
 # Terminal setup
 
-Set up the Terminal application (command line) to use theme of my preference... My own: [FileSwap.com > Eduan > Eduan.terminal](http://www.fileswap.com/dl/t0wJEala52/Eduan.terminal.html)
+Set up the Terminal application (command line) to use theme of my preference... My own:<br />
+[FileSwap.com > Eduan > Eduan.terminal](http://www.fileswap.com/dl/t0wJEala52/Eduan.terminal.html)<br />
+[FileSwap.com > Eduan > Eduan Solarized.terminal](http://www.fileswap.com/dl/EI7dxyi24P/Eduan_Solarized.terminal.html)
 
 ## Setting up some settings
 
