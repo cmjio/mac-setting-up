@@ -21,6 +21,8 @@ This step is optional but very recommended, it installs the subl command to UNIX
 
 - AdvancedNewFile
 - Alignment
+- BracketHighlighter2 (still in alpha)
+- Comments Aware Enter
 - DetectSyntax
 - DocBlockr
 - FuzzyFileNav
@@ -30,7 +32,9 @@ This step is optional but very recommended, it installs the subl command to UNIX
 - MarkdowPreview
 - Nettuts+ Fetch
 - Prefixr
+- RegReplace
 - SidebarEnhancements
+- SortTabs
 - SublimeCodeIntel
 - SublimeLinter
 - ThemeChanger (in beta, very recommended)
@@ -65,8 +69,9 @@ It is meant to be more true to the original theme, because Sublime Text 2's repr
 If you want to sync your Sublime Text 2 settings accross all your devices using DropBox, you can follow the instructions in this online article: [Stofke on wheels > Use Dropbox to store your Sublime Text 2 settings, themes and plugins](http://wheels.onebuttonapps.net/2012/04/use-dropbox-to-store-your-sublime-text-2-settings/)
 
 If you don't yet have DropBox, then you really need to get an account, especially if you're constantly on the move. Use the following link to register:<br />
-http://db.tt/v3QI85gA
+http://db.tt/v3QI85gA<br />
+That link will give you an account with an extra amount of space I think, and you will be helping me out by giving me an extra 500MB. If you use it, Thanks!
 
-This link will give you an account with an extra amount of space I think, and you will be helping me out by giving me an extra 500MB. Thanks! If you don't want to help me out, you can just use the following link:<br />
+If you don't want to help me out (you're such a mean person), you can just use the following link:<br />
 https://www.dropbox.com
 
