@@ -27,8 +27,8 @@ This step is optional but very recommended, it installs the subl command to UNIX
 - DocBlockr
 - FuzzyFileNav
 - Gist
+- Inc-Dec-Value
 - [INI file Syntax Highlighting](https://github.com/clintberry/sublime-text-2-ini)
-- MarkdownEditing
 - MarkdowPreview
 - Nettuts+ Fetch
 - Prefixr
@@ -50,7 +50,7 @@ Note: When editing text files with the Markdown Editing package installed, remem
 
 If you would like to use a good looking theme that's compact and has Retina display support, then you will be very interested in the [Phoenix theme](http://netatoo.github.com/phoenix-theme/), it is beautiful and can be configured to be pretty compact. The instructions are the same as the theme below, or just go to it's GitHub and follow the instructions there.
 
-Alternatively, if you would like to use the Soda theme, which is pretty well known, then follow the steps below to install it:<br />
+Alternatively, if you would like to use the Soda theme, which is pretty well known, and use a modified version myself, then follow the steps below to install it:<br />
 1. Download the Soda theme: [GitHub > buymeasoda > soda-theme](https://github.com/buymeasoda/soda-theme)<br />
 OR<br />
 Install it with the Package Control package. Shift+Command+p type "install", press enter. Now type "soda theme" and select the right option, it is now installed.
