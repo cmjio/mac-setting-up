@@ -59,3 +59,7 @@ Do the following in the command line:
     if [ -f ~/.git-completion.bash ]; then
         source ~/.git-completion.bash
     fi
+
+## Password caching
+
+In order for Git to not ask for your password every time you push a change to an online repo, follow the instructions in this help article by GitHub in order to setup the `osxkeychain` application: [GitHub:Help > Setup Git > Password Caching](https://help.github.com/articles/set-up-git#password-caching)

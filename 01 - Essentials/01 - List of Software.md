@@ -10,5 +10,6 @@
 - [GitX (L)](http://gitx.laullon.com/)
 - [VLC Media Player](http://www.videolan.org/vlc/)
 - [PostBox](http://postbox-inc.com/)
+- [CandyBar](http://www.panic.com/blog/2012/08/candybar-mountain-lion-and-beyond/)
 
 If you do not have any of these wonderful apps, go get them!

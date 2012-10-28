@@ -31,6 +31,7 @@ This step is optional but very recommended, it installs the subl command to UNIX
 - [INI file Syntax Highlighting](https://github.com/clintberry/sublime-text-2-ini)
 - MarkdowPreview
 - Nettuts+ Fetch
+- PlainTasks
 - Prefixr
 - RegReplace
 - SidebarEnhancements
@@ -50,11 +51,13 @@ Note: When editing text files with the Markdown Editing package installed, remem
 
 If you would like to use a good looking theme that's compact and has Retina display support, then you will be very interested in the [Phoenix theme](http://netatoo.github.com/phoenix-theme/), it is beautiful and can be configured to be pretty compact. The instructions are the same as the theme below, or just go to it's GitHub and follow the instructions there.
 
-Alternatively, if you would like to use the Soda theme, which is pretty well known, and use a modified version myself, then follow the steps below to install it:<br />
+Alternatively, if you would like to use the Soda theme, which is pretty well known, and has an on-going support, then follow the steps below to install it:<br />
 1. Download the Soda theme: [GitHub > buymeasoda > soda-theme](https://github.com/buymeasoda/soda-theme)<br />
 OR<br />
 Install it with the Package Control package. Shift+Command+p type "install", press enter. Now type "soda theme" and select the right option, it is now installed.
 2. Follow these instructions to set it up and use it: [GitHub > buymeasoda > soda-theme > Activating the theme](https://github.com/buymeasoda/soda-theme#activating-the-theme)
+
+Note that I use my own version of this theme, which I have modified to be as compact as possible, but still have it's awesome graphics: [GitHub > Greduan > Greduan-Sublime-Theme](https://github.com/Greduan/Greduan-Sublime-Theme)
 
 ### Installing the color scheme
 
