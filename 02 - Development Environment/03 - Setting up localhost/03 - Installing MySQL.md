@@ -17,3 +17,9 @@ Start the MySQL server.
 `$ ./mysql -u root # To check if the root password is setup`<br />
 `$ exit`<br />
 `$ ./mysqladmin -u root password 'rootpwd'`
+
+## Calling mysql commands from anywhere
+
+Add the following to your .bashrc file:
+
+    export PATH="/usr/local/mysql/bin:$PATH"

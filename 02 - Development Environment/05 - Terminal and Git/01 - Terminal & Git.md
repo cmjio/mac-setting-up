@@ -16,7 +16,7 @@ Set up the Terminal application (command line) to use theme of my preference... 
 
 `$ subl ~/.bashrc`
 
-    export PS1='[\t] \w >>> '
+    alias ls="ls -la -Gp -F"
 
 # Git Setup
 
@@ -34,13 +34,19 @@ Do the following in the command line:
 
     Short (50 chars or less) summary of changes.
 
-    More detailed explanatory text. Wrap it to about 72 chars.
+    More detailed explanatory text. Wrap it to about 72 chars. You can of
+    course use multiple lines, as long as no line is longer than 72 chars.
 
     * For something you fixed, like a bug a glitch or something
     + For something new you added, be it a class, function, or whole feature
     ~ If you changed something, be it text, a function, etc.
     - If you removed something
     +~ If you improved something in some or any way
+
+                                       50 chars mark |       72 chars mark |
+
+To have the most recent version of my .gitmessage.txt file simply visit the followng Gist:<br />
+[gist: 3981302](https://gist.github.com/3981302)
 
 `$ git config --global user.name "Eduan Lavaque"`<br />
 `$ git config --global user.email "eduan@snapsimpletech.com"`
@@ -65,7 +71,7 @@ Do the following in the command line:
         source ~/.git-prompt.sh
     fi
 
-    PS1='[\t] \W$(__git_ps1 " (%s)") >>> '
+    PS1='\e[0;33m[\@] [\u] \W$(__git_ps1 " (%s)") >>> \e[m'
 
 ## Password caching
 
