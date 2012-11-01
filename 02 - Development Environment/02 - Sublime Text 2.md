@@ -16,34 +16,49 @@ This step is optional but very recommended, it installs the subl command to UNIX
 
 ## Installing packages
 
+### List of packages
+
 1. Install the Package Control: [WBond.net > Sublime Packages > Package Control](http://wbond.net/sublime_packages/package_control)
 2. Install the following packages:
 
 - AdvancedNewFile
 - Alignment
-- BracketHighlighter2 (still in alpha)
+- Bracket Highlighter 2 (still in alpha)
 - Comments Aware Enter
 - DetectSyntax
 - DocBlockr
 - FuzzyFileNav
 - Gist
 - Inc-Dec-Value
-- [INI file Syntax Highlighting](https://github.com/clintberry/sublime-text-2-ini)
-- MarkdowPreview
+- INI file Syntax Highlighting
+- Markdow Preview
 - Nettuts+ Fetch
 - PlainTasks
 - Prefixr
 - RegReplace
-- SidebarEnhancements
+- SideBarEnhancements
+- Smart Match
+- Solarized Color Scheme
 - SortTabs
-- SublimeCodeIntel
 - SublimeLinter
 - ThemeChanger (in beta, very recommended)
+- Vintage
+- VintageEx
 - WordCount
 - WordHighlight
 - ZenCoding
 
-Note: When editing text files with the Markdown Editing package installed, remember to change the syntax back to Plain Text.
+The "Vintage" and "VintageEx" packages should only be installed if you use Vim, if you like it, or if you're used to it. Also see the the next section if you use Vim.
+
+### Setting up Vintage mode
+
+I suggest that if you're used to Vim, that you install the "Vintage" and "VintageEx" packages. Some extra steps to take to finish installing correctly, add the following to your user preferences file:
+
+`"vintage_start_in_command_mode": true`
+
+Also, make sure to do the following in your Terminal:
+
+`$ defaults write com.sublimetext.2 ApplePressAndHoldEnabled -bool false`
 
 ## Installing the theme and the color scheme
 
