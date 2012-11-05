@@ -72,7 +72,9 @@ OR<br />
 Install it with the Package Control package. Shift+Command+p type "install", press enter. Now type "soda theme" and select the right option, it is now installed.
 2. Follow these instructions to set it up and use it: [GitHub > buymeasoda > soda-theme > Activating the theme](https://github.com/buymeasoda/soda-theme#activating-the-theme)
 
-Note that I use my own version of this theme, which I have modified to be as compact as possible, but still have it's awesome graphics: [GitHub > Greduan > Greduan-Sublime-Theme](https://github.com/Greduan/Greduan-Sublime-Theme)
+Note that I use my own version of this theme, which I have modified to be as compact as possible, but still have it's awesome graphics: [gist: 4002309](https://gist.github.com/4002309)
+
+Check out [this guide](https://github.com/buymeasoda/soda-theme/wiki/Theme-customisation) on having your own customized version of a Sublime Text theme (and using mine if you like it).
 
 ### Installing the color scheme
 
