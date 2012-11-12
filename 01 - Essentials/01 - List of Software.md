@@ -7,7 +7,6 @@
 - [Mountain Tweaks](http://tweaksapp.com/)
 - [DropBox](https://www.dropbox.com/)
 - [OpenOffice.org](http://www.openoffice.org/)
-- [GitX (L)](http://gitx.laullon.com/)
 - [VLC Media Player](http://www.videolan.org/vlc/)
 - [PostBox](http://postbox-inc.com/)
 - [CandyBar](http://www.panic.com/blog/2012/08/candybar-mountain-lion-and-beyond/)

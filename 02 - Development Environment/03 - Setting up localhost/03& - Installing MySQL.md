@@ -1,7 +1,7 @@
 ## Downloading MySQL
 
 1. Go to [MySQL.com > Downloads](http://www.mysql.com/downloads/mysql/).
-2. Download the latest version that applies to your system. Login in order to download.
+2. Download the latest version that applies to your system. Login in order to download if you want, or click the `» No thanks, just start my download!` link below, if you don't want to login/register.
 
 ## Installing MySQL
 

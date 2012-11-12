@@ -56,7 +56,7 @@ I suggest that if you're used to Vim, that you install the "Vintage" and "Vintag
 
 `"vintage_start_in_command_mode": true`
 
-Also, make sure to do the following in your Terminal:
+Also, make sure to do the following in your Terminal, after which you will need to restart your computer:
 
 `$ defaults write com.sublimetext.2 ApplePressAndHoldEnabled -bool false`
 

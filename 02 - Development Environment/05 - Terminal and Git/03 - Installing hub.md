@@ -11,7 +11,7 @@ If you use GitHub, then you *need* hub.
 
 ## Setting up alias*
 
-`$ subl ~/.bashrc`
+`$ subl ~/.zshrc`
 
     alias git="hub"
 

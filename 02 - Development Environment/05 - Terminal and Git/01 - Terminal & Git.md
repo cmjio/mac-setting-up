@@ -6,15 +6,9 @@ Set up the Terminal application (command line) to use theme of my preference... 
 
 ## Setting up some settings
 
-`$ touch ~/.bash_profile`<br />
-`$ touch ~/.bashrc`<br />
-`$ subl ~/.bash_profile`
+`$ touch ~/.zshrc`<br />
 
-    if [ -f ~/.bashrc ]; then
-        source ~/.bashrc
-    fi
-
-`$ subl ~/.bashrc`
+`$ mvim ~/.zshrc`
 
     alias ls="ls -la -Gp -F"
 
@@ -30,7 +24,7 @@ Set up the Terminal application (command line) to use theme of my preference... 
 Do the following in the command line:
 
 `$ touch ~/.gitmessage.txt`<br />
-`$ subl ~/.gitmessage.txt`
+`$ mvim ~/.gitmessage.txt`
 
     Short (50 chars or less) summary of changes.
 
@@ -51,7 +45,7 @@ To have the most recent version of my .gitmessage.txt file simply visit the foll
 `$ git config --global user.name "Eduan Lavaque"`<br />
 `$ git config --global user.email "eduan@snapsimpletech.com"`
 
-`$ git config --global core.editor "subl -n -w"`<br />
+`$ git config --global core.editor "mvim -f"`<br />
 `$ git config --global color.ui true`<br />
 `$ git config --global commit.template ~/.gitmessage.txt`<br />
 `$ git config --global core.autocrlf input`
@@ -60,18 +54,7 @@ To have the most recent version of my .gitmessage.txt file simply visit the foll
 
 ## Adding auto completion and showing current branch
 
-`$ curl -o -L ~/.git-completion.bash https://github.com/git/git/raw/master/contrib/completion/git-completion.bash`<br />
-`$ curl -o -L ~/.git-prompt.sh https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh`<br />
-`$ subl ~/.bashrc`
-
-    if [ -f ~/.git-completion.bash ]; then
-        source ~/.git-completion.bash
-    fi
-    if [ -f ~/.git-prompt.sh ]; then
-        source ~/.git-prompt.sh
-    fi
-
-    PS1='\e[0;33m[\@] [\u] \W$(__git_ps1 " (%s)") >>> \e[m'
+In order to have Zsh show your current branch, and show it's status, you need to follow the instructions in this blog post: [SebastianCelis.com > Zsh Prompt for Git Users](http://sebastiancelis.com/2009/11/16/zsh-prompt-git-users/)
 
 ## Password caching
 
