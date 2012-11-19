@@ -1,17 +1,3 @@
-# Terminal setup
-
-Set up the Terminal application (command line) to use theme of my preference... My own:<br />
-[FileSwap.com > Eduan > Eduan.terminal](http://www.fileswap.com/dl/t0wJEala52/Eduan.terminal.html)<br />
-[FileSwap.com > Eduan > Eduan Solarized.terminal](http://www.fileswap.com/dl/RF0JsEODz/Eduan_Solarized.terminal.html)
-
-## Setting up some settings
-
-`$ touch ~/.zshrc`<br />
-
-`$ mvim ~/.zshrc`
-
-    alias ls="ls -la -Gp -F"
-
 # Git Setup
 
 ## Installing Git
@@ -58,4 +44,38 @@ In order to have Zsh show your current branch, and show it's status, you need to
 
 ## Password caching
 
-In order for Git to not ask for your password every time you push a change to an online repo, follow the instructions in this help article by GitHub in order to setup the `osxkeychain` application: [GitHub:Help > Setup Git > Password Caching](https://help.github.com/articles/set-up-git#password-caching)
+First make sure that you don't already have this functionality. Run the following command:<br />
+`$ git osxkeychain`
+
+You probably don't have it at this point, so do the following commands:<br />
+`$ curl -s -O http://github-media-downloads.s3.amazonaws.com/osx/git-credential-osxkeychain`<br />
+`$ chmod u+x git-credential-osxkeychain`
+
+Now you need to find out where Git is installed:<br />
+`$ which git`<br />
+`$ sudo mv git-credential-osxkeychain [results/given/in/the/previous/command]`
+
+Now configure Git to make sure it uses it:<br />
+`$ git config --global credential.helper osxkeychain`
+
+And you're done!
+
+## Installing hub
+
+To install hub simply follow the instructions in this web-page (as there is more than 1 way to do it): http://defunkt.io/hub/
+
+Here's `hub`'s repo BTW: [GitHub > defunkt/hub](https://github.com/defunkt/hub)
+
+### What is hub?
+
+hub is a neat little utility that allows you to work better and easier with GitHub.
+
+If you use GitHub, then you *need* hub.
+
+### Setting up alias
+
+`$ mvim ~/.zshrc`
+
+    alias git="hub"
+
+\* This step is optional, but *very*, *very* recommended.

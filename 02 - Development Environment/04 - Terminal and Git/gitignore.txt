@@ -1,3 +1,6 @@
+# Executable files etc.
+#######################
+
 # I just put these so that we can re-use this .gitignore file in future projects.
 *.com
 *.class
@@ -6,6 +9,9 @@
 *.o
 *.so
 
+
+# Compressed files.
+###################
 
 # It's better to unpack these files and commit the raw source.
 # Besides, Git has its own built in compression methods.
@@ -19,6 +25,9 @@
 *.zip
 
 
+# Logs and databases.
+#####################
+
 # Just so that we don't commit anything that constantly changes.
 # And so that we can each have our own testing environment.
 *.log
@@ -26,11 +35,13 @@
 *.sqlite
 
 
-# Icon files.
+# System files.
+###############
+
+# Icon files
 *.(I|i)con?
 (I|i)con?
 *.icns
-
 
 # For Mac OS X files.
 .fseventsd
@@ -39,7 +50,6 @@
 .Trashes
 ._*
 .Spotlight-V100
-
 
 # For Windows files.
 ehthumbs.db
