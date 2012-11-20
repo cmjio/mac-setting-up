@@ -1,10 +1,18 @@
 # Terminal setup
 
-## Installing my theme
+## Installing iTerm 2
 
-Set up the Terminal application (command line) to use theme of my preference... My own:<br />
-[FileSwap.com > Eduan > Eduan.terminal](http://www.fileswap.com/dl/t0wJEala52/Eduan.terminal.html)<br />
-[FileSwap.com > Eduan > Eduan Solarized.terminal](http://www.fileswap.com/dl/RF0JsEODz/Eduan_Solarized.terminal.html)
+Go to [iTerm 2 > Home](http://www.iterm2.com/#/section/home) and download the latest version that you find, even if it's in beta, trust me.
+
+Once downloaded, simply drag it to your Applications folder, and start using it.
+
+To use Zsh simply run the following commands and open a new shell:<br />
+`$ chsh -s /bin/zsh`<br />
+`$ sudo chsh -s /bin/zsh`
+
+## Installing the Solarized color scheme
+
+Go to [GitHub > altercation/solarized > iterm2-colors-solarized](https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized) and download it whichever way you can, then simply drag it on top of your iTerm 2 application icon and it will be installed. To use it go to *Preferences > Profiles > Colors* and click "Load Presets..." and load the Solarized preset.
 
 # Installing Homebrew
 
