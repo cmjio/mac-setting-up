@@ -2,6 +2,10 @@
 
 The following are must-do commands in order to configure Mac OS X Mountain Lion to our liking.
 
+To show hidden files (.fileName):<br />
+`$ defaults write com.apple.Finder AppleShowAllFiles YES`<br />
+`$ killall Finder`
+
 To disable .DS_Store files:<br />
 `$ defaults write com.apple.desktopservices DSDontWriteNetworkStores true`
 
