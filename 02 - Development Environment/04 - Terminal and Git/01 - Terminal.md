@@ -35,3 +35,7 @@ After that does what it should, simply run the following command:<br />
 And fix any problems it shows, if it shows any.
 
 Now you can install whatever you want.
+
+# Installing thins with Homebrew
+
+`$ brew install ack`
