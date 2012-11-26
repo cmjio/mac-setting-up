@@ -39,3 +39,4 @@ Now you can install whatever you want.
 # Installing thins with Homebrew
 
 `$ brew install ack`
+`$ brew install par`
