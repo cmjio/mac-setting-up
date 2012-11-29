@@ -36,7 +36,9 @@ And fix any problems it shows, if it shows any.
 
 Now you can install whatever you want.
 
-# Installing thins with Homebrew
+# Installing things with Homebrew
 
-`$ brew install ack`
-`$ brew install par`
+`$ brew install ack`<br />
+`$ brew install par`<br />
+`$ brew install tmux`<br />
+`$ brew install reattach-to-user-namespace`
