@@ -10,7 +10,8 @@ To disable .DS_Store files:<br />
 `$ defaults write com.apple.desktopservices DSDontWriteNetworkStores true`
 
 To have the 2D dock:<br />
-`$ defaults write com.apple.dock no-glass -boolean YES; killall Dock`
+`$ defaults write com.apple.dock no-glass -boolean YES`<br />
+`$ killall Dock`
 
 To disable Spotlight:<br />
 `$ sudo mdutil -a -i off`<br />
