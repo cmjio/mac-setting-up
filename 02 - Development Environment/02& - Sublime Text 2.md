@@ -46,7 +46,8 @@ This step is optional but very recommended, it installs the subl command to UNIX
 - VintageEx
 - WordCount
 - WordHighlight
-- ZenCoding
+- ZenCoding or Emmet
+- Pretty JSON
 
 The "Vintage" and "VintageEx" packages should only be installed if you use Vim, if you like it, or if you're used to it. Also see the the next section if you use Vim.
 
